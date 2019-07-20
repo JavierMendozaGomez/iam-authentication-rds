@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit test getPostgresConfig Successfully gets the info to connect the db 1`] = `
+Object {
+  "database": "mockedDBName",
+  "host": "mockedHostname",
+  "password": "DummyToken",
+  "port": 123456,
+  "ssl": Object {
+    "ca": "11 22 33 44",
+  },
+  "user": "mockedDBUser",
+}
+`;
