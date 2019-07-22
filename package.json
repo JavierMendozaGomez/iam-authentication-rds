@@ -15,7 +15,7 @@
     "build": "tsc",
     "test": "yarn test:unit",
     "test:unit": "jest ./tests/unit",
-    "test:init": "jest ./tests/init"
+    "test:int": "jest ./tests/int"
   },
   "devDependencies": {
     "@types/jest":"^24.0.15",

@@ -10,7 +10,7 @@ const createToken = async (): Promise<string> => {
         username: process.env.DB_USER,
     });
     const getAuthTokenAsync = util.promisify(signer.getAuthToken).bind(signer);
-    return await getAuthTokenAsync({username: process.env.DB_AURORA_USER});
+    return await getAuthTokenAsync({username: process.env.DB_USER});
 };
 
 export default createToken;
